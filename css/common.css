@@ -1,0 +1,60 @@
+:root {
+  --point-color: rgb(118, 101, 212);
+  --color-whitepurple: rgb(202, 177, 212);
+  --font-main: Arial;
+  --font-title: 'Times New Roman', Times, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width="959px") {
+  body{
+    width: 959px;
+    height: 965px;
+  }
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: var(--point-color);
+  margin: 0 auto;
+}
+
+body>div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: none;
+  margin: auto;
+}
+
+body>div>div {
+  width: 40%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  border: 0.1cm solid var(--point-color);
+  color: var(--color-whitepurple);
+  transition: all ease-in-out 1s;
+}
+
+body>div>div:hover {
+  transform: scale(1.1);
+}
+
+img {
+  width: 80px;
+  height: 80px;
+}
+
+a {
+  color: var(--color-whitepurple);
+  text-decoration: none;
+}
