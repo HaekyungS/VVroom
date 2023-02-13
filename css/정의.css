@@ -28,9 +28,9 @@ table{
 body>div>div>div>footer{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   height: 10%;
-  margin: auto;
 }
 body>div>div>footer>a {
   width: 100%;

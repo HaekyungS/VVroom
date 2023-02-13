@@ -1,18 +1,6 @@
-body>div {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+body>div>div{
+  align-items: center;
 }
-body>div>div {
-  font-family: var(--font-main);
-  width: 650px;
-  height: 800px;
-  margin-top : 0;
-  margin-bottom: 0;
-  text-align: justify;
-  padding: 0;
-}
-
 p {
   margin: 10px;
   color: aliceblue;
@@ -23,14 +11,26 @@ a {
   text-decoration: none;
   font-family: var(--font-main);
 }
+
 ol{
   margin: 0;
 }
-.text-center {
+
+header{
+  overflow: visible;
+}
+
+h1 {
   text-align: center;
   transition: all 3s;
 }
 
-.text-center:hover {
+h1:hover {
   transform: scale(1.5);
+}
+
+body>div>div>footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
